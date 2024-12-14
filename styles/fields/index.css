@@ -4,7 +4,7 @@ input, textarea, select{
   appearance: none;
   width: 100%;
   border-radius: .5rem;
-  border: .0625rem solid var(--stroke-default);
+  border: .125rem solid var(--stroke-default);
 
   padding: .75rem 1rem;
   font: var(--text);

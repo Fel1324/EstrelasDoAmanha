@@ -1,5 +1,5 @@
 .dropzone{
-  border: .0625rem dashed var(--stroke-default);
+  border: .125rem dashed var(--stroke-default);
   border-radius: .25rem;
 
   display: grid;
@@ -11,7 +11,6 @@
 
   position: relative;
   &:hover, &:has(input:focus){
-    border-width: .125rem; 
     border-color: var(--stroke-highlight);
     background-color: var(--surface-secondary);
     
