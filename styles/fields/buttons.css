@@ -18,7 +18,7 @@ button{
 
   &.btn-secondary{
     margin-left: auto;
-    border: .0625rem solid var(--text-highlight);
+    border: .125rem solid var(--text-highlight);
 
     &:hover, &:focus{
       color: #E43A12;
