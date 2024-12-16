@@ -25,3 +25,10 @@ fieldset + fieldset{
   display: flex;
   gap: 1rem;
 }
+
+@media screen and (max-width: 425px) {
+  .actions-wrapper{
+    flex-direction: column;
+    justify-content: center;
+  }
+}

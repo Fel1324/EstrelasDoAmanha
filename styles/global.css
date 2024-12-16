@@ -24,6 +24,8 @@
 }
 
 body{
+  overflow: hidden;
+
   font: var(--text);
   color: var(--text-secondary);
 }
@@ -47,4 +49,16 @@ img{
 
 .flex-2{
   flex: 2;
+}
+
+@media screen and (max-width: 984px) {
+  body{
+    overflow: initial;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .flex-1{
+    flex: .5;
+  }
 }

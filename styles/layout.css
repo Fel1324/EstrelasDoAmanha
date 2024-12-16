@@ -1,13 +1,11 @@
 #app{
   display: grid;
   grid-template-columns: 51.25% 48.75%;
-
-  height: 100vh;
-  overflow: hidden;
 }
 
 main{
   padding: 4rem;
+  height: 100vh;
   overflow: auto;
   
   & .main-container{
@@ -48,5 +46,28 @@ aside{
     & span{
       color: var(--text-highlight);
     }
+  }
+}
+
+@media screen and (max-width: 984px) {
+  #app{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  main{
+    height: auto;
+    overflow: initial;
+    margin-inline: auto;
+  }
+
+  aside{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  main, aside{
+    padding-inline: 1.25rem;
   }
 }

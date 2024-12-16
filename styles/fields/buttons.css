@@ -26,3 +26,11 @@ button{
     }
   }
 }
+
+@media screen and (max-width: 425px) {
+  button{
+    width: 14rem;
+    margin-inline: auto;
+    text-align: center;
+  }
+}
