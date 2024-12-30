@@ -49,7 +49,7 @@ aside{
   }
 }
 
-@media screen and (max-width: 984px) {
+@media screen and (max-width: 61.5em) {
   #app{
     display: flex;
     flex-direction: column-reverse;
@@ -69,5 +69,17 @@ aside{
 
   main, aside{
     padding-inline: 1.25rem;
+  }
+}
+
+@media screen and (width <= 31.875em) {
+  aside{
+    padding: 1.5rem;
+
+    .aside-container{
+      & > img{
+        margin-top: .75rem;
+      }
+    }
   }
 }

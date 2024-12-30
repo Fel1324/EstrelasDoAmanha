@@ -27,10 +27,17 @@ button{
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 26.5625em) {
   button{
-    width: 14rem;
-    margin-inline: auto;
     text-align: center;
+    margin-inline: auto;
+
+    &.btn-primary{
+      width: calc(100% - 1.5rem * 2);
+    }
+
+    &.btn-secondary{
+      width: calc((100% - 1.5rem * 2) - .25rem);
+    }
   }
 }

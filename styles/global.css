@@ -23,6 +23,10 @@
   --semantic-error: #DC2626;
 }
 
+html{
+  width: 100%;
+}
+
 body{
   overflow: hidden;
 
@@ -54,6 +58,16 @@ img{
 @media screen and (max-width: 984px) {
   body{
     overflow: initial;
+  }
+}
+
+@media screen and (width <= 31.875em) {
+  .desktop-only{
+    display: none;
+  }
+
+  .flex-col{
+    flex-direction: column;
   }
 }
 
